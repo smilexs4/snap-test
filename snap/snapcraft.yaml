@@ -13,6 +13,10 @@ architectures:
   - build-on: arm64
     run-on: arm64
     
+apps:
+  hello:
+    command: test.sh
+    
 parts:
   my-part:
     # See 'snapcraft plugins'
