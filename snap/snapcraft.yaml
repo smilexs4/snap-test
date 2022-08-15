@@ -21,3 +21,4 @@ parts:
   nothing:
     # See 'snapcraft plugins'
     plugin: nil
+    source: .
