@@ -16,3 +16,8 @@ architectures:
 apps:
   hello:
     command: test.sh
+    
+parts:
+  nothing:
+    # See 'snapcraft plugins'
+    plugin: nil
